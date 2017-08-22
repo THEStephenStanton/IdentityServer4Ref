@@ -49,7 +49,9 @@ namespace Aps.PspClient
             var client = new HttpClient();
             client.SetBearerToken(accessToken);
 
-            var response = await client.GetAsync($"{ apsApi }/api/identity");
+            var sjf = $"{ apsApi }/api/identity";
+
+            var response = client.GetAsync($"{ apsApi }/api/identity").Result;
 
             if (!response.IsSuccessStatusCode)
             {

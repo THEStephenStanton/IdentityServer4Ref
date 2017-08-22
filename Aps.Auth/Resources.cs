@@ -12,7 +12,7 @@ namespace Aps.Auth
         {
             return new List<ApiResource>
             {
-                new ApiResource("aps", "Alien Pawn Shop")
+                new ApiResource("apsApi", "Alien Pawn Shop")
             };
         }
     }
