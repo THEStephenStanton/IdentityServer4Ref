@@ -15,5 +15,14 @@ namespace Aps.Auth
                 new ApiResource("apsApi", "Alien Pawn Shop")
             };
         }
+
+        public static IEnumerable<IdentityResource> GetIdentityResources()
+        {
+            return new List<IdentityResource>
+            {
+                new IdentityResources.OpenId(),
+                new IdentityResources.Profile(),
+            };
+        }
     }
 }

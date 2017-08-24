@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aps.Auth", "Aps.Auth\Aps.Auth.csproj", "{1ECD96F9-87AC-48DC-9D1E-E7E83EE5EEBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aps.Auth", "Aps.Auth\Aps.Auth.csproj", "{1ECD96F9-87AC-48DC-9D1E-E7E83EE5EEBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aps.Api", "Aps.Api\Aps.Api.csproj", "{9F5992FB-D414-41BB-8829-DEAB3899AFF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aps.Api", "Aps.Api\Aps.Api.csproj", "{9F5992FB-D414-41BB-8829-DEAB3899AFF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aps.PspClient", "Aps.PspClient\Aps.PspClient.csproj", "{F372389F-F433-4180-A00C-4049D9908076}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aps.PspClient", "Aps.PspClient\Aps.PspClient.csproj", "{F372389F-F433-4180-A00C-4049D9908076}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
