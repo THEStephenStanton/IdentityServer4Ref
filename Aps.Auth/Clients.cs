@@ -45,6 +45,7 @@ namespace Aps.Auth
                     ClientId = "mvc.pawnShopPlanet",
                     ClientName = "Pawn Shop Planet MVC",
                     AllowedGrantTypes = GrantTypes.Implicit,
+                    RequireConsent = false,
 
                     // where to redirect to after login
                     RedirectUris = { "http://localhost:5002/signin-oidc" },

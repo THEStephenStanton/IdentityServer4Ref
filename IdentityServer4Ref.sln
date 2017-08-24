@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aps.Api", "Aps.Api\Aps.Api.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aps.PspClient", "Aps.PspClient\Aps.PspClient.csproj", "{F372389F-F433-4180-A00C-4049D9908076}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aps.Mvc", "Aps.Mvc\Aps.Mvc.csproj", "{B193B821-C9F9-47A2-9F98-270126C242EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F372389F-F433-4180-A00C-4049D9908076}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F372389F-F433-4180-A00C-4049D9908076}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F372389F-F433-4180-A00C-4049D9908076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B193B821-C9F9-47A2-9F98-270126C242EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B193B821-C9F9-47A2-9F98-270126C242EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B193B821-C9F9-47A2-9F98-270126C242EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B193B821-C9F9-47A2-9F98-270126C242EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
