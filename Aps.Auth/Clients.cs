@@ -14,7 +14,7 @@ namespace Aps.Auth
             {
                 new Client
                 {
-                    ClientId = "pawnShopPlanet",
+                    ClientId = "cc.pawnShopPlanet",
 
                     // no interactive user, use the clientid/secret for authentication
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
@@ -30,19 +30,13 @@ namespace Aps.Auth
                 },
                 new Client
                 {
-                    ClientId = "client",
-
-                    // no interactive user, use the clientid/secret for authentication
-                    AllowedGrantTypes = GrantTypes.ClientCredentials,
-
-                    // secret for authentication
+                    ClientId = "ro.pawnShopPlanet",
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     ClientSecrets =
                     {
                         new Secret("secret".Sha256())
                     },
-
-                    // scopes that client has access to
-                    AllowedScopes = { "api1" }
+                    AllowedScopes = { "apsApi" }
                 }
             };
         }

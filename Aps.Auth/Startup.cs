@@ -19,7 +19,8 @@ namespace Aps.Auth
             services.AddIdentityServer()
                 .AddTemporarySigningCredential()
                 .AddInMemoryApiResources(Resources.GetApiResources())
-                .AddInMemoryClients(Clients.Get());
+                .AddInMemoryClients(Clients.Get())
+                .AddTestUsers(Users.Get());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
