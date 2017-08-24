@@ -44,8 +44,12 @@ namespace Aps.Auth
                 {
                     ClientId = "mvc.pawnShopPlanet",
                     ClientName = "Pawn Shop Planet MVC",
-                    AllowedGrantTypes = GrantTypes.Implicit,
-                    RequireConsent = false,
+                    AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
+                    //RequireConsent = false,
+                    ClientSecrets =
+                    {
+                        new Secret("secret".Sha256())
+                    },
 
                     // where to redirect to after login
                     RedirectUris = { "http://localhost:5002/signin-oidc" },
@@ -56,8 +60,10 @@ namespace Aps.Auth
                     AllowedScopes = new List<string>
                     {
                         IdentityServerConstants.StandardScopes.OpenId,
-                        IdentityServerConstants.StandardScopes.Profile
-                    }
+                        IdentityServerConstants.StandardScopes.Profile,
+                        "apsApi"
+                    },
+                    AllowOfflineAccess = true
                 }
             };
         }

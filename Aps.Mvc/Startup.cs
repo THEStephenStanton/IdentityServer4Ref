@@ -59,6 +59,12 @@ namespace Aps.Mvc
                 RequireHttpsMetadata = false,
 
                 ClientId = "mvc.pawnShopPlanet",
+                ClientSecret = "secret",
+
+                ResponseType = "code id_token",
+                Scope = { "apsApi", "offline_access" },
+
+                GetClaimsFromUserInfoEndpoint = true,
                 SaveTokens = true
             });
 
