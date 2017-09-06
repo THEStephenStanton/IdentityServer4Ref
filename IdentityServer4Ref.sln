@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aps.Auth", "Aps.Auth\Aps.Auth.csproj", "{1ECD96F9-87AC-48DC-9D1E-E7E83EE5EEBF}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aps.Api", "Aps.Api\Aps.Api.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aps.PspClient", "Aps.PspClient\Aps.PspClient.csproj", "{F372389F-F433-4180-A00C-4049D9908076}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aps.Mvc", "Aps.Mvc\Aps.Mvc.csproj", "{B193B821-C9F9-47A2-9F98-270126C242EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aps.Mvc", "Aps.Mvc\Aps.Mvc.csproj", "{B193B821-C9F9-47A2-9F98-270126C242EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aps.AuthIdentity", "Aps.AuthIdentity\Aps.AuthIdentity.csproj", "{68EEE051-E861-4DF8-9C98-F491E436BB83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B193B821-C9F9-47A2-9F98-270126C242EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B193B821-C9F9-47A2-9F98-270126C242EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B193B821-C9F9-47A2-9F98-270126C242EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68EEE051-E861-4DF8-9C98-F491E436BB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EEE051-E861-4DF8-9C98-F491E436BB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EEE051-E861-4DF8-9C98-F491E436BB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EEE051-E861-4DF8-9C98-F491E436BB83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

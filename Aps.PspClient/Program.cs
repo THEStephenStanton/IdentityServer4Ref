@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Aps.PspClient
 {
+    /// *********
+    /// ATTENTION
+    /// *********
+    /// This only works with the Aps.Auth project right now
+    /// Just change the username and password if you want to work with Aps.AuthIdentity
     class Program
     {
         private const string identityServer = "http://localhost:5000";
